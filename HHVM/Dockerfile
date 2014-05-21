@@ -1,4 +1,4 @@
-FROM dev
+FROM slaff/docker-php
 RUN echo 'Start building HHVM'
 MAINTAINER Slavey Karadzhov <slavey@zend.com>
 WORKDIR /home/dev/hhvm
