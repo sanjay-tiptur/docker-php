@@ -1,4 +1,4 @@
-FROM dev
+FROM slaff/docker-php
 RUN echo 'Start building PHPNG'
 MAINTAINER Slavey Karadzhov <slavey@zend.com>
 RUN apt-get install -y wget
