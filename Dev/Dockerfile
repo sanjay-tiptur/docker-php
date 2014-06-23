@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 RUN echo 'Start building Ubuntu 14.04 with compiler stuff'
 MAINTAINER Slavey Karadzhov <slavey@zend.com>
+RUN apt-get update
 RUN apt-get install -y build-essential
 RUN apt-get install -y git mercurial
 RUN apt-get install -y wget
